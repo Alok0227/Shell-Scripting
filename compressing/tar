@@ -1,0 +1,28 @@
+
+Tar in lnux is used to archive the files and folders;
+
+# tar -cvf => -c for creating
+	    v for viewing the list
+	    f for files show after archive done.
+# ex => tar -cvf test.tar compressing/
+
+
+
+# tar -czvf => z for compressing
+# ex => tar -czvf test.tar.gz compressing/
+
+# for viewing the tar file without extracting the content
+
+tar -tf test.tar
+
+-------------------------------------------------
+
+#for extracting
+
+tar -xvf test.tar
+
+
+for gzip the compressed tar file
+
+tar -zxvf filename.tgz
+
